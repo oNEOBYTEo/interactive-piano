@@ -1,3 +1,9 @@
+import { Cuadradito } from './components/cuadradito';
+
 export default function Home() {
-  return <h1>Hola Mundo</h1>;
+  return (
+    <div>
+      <Cuadradito />
+    </div>
+  );
 }
