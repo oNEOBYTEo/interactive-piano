@@ -3,7 +3,7 @@
 import * as Tone from 'tone';
 
 export function Cuadradito({ note = 'C' }) {
-  const synth = new Tone.Synth().toDestination();
+  const synth = new Tone.PolySynth(Tone.Synth).toDestination();
 
   function playSound() {
     synth.triggerAttackRelease(`${note}3`, '6n');
