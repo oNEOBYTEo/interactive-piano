@@ -3,3 +3,36 @@
   padding: 0;
   margin: 0;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.square {
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(3, 0, 48);
+  margin-right: 10px;
+  border-radius: 25px;
+  box-shadow: 0px 7px rgba(136, 135, 135, 0.5);
+  cursor: pointer;
+  border: 2px solid #ffffff;
+}
+
+.square1 {
+  background-color: rgb(3, 0, 48);
+}
+
+.square2 {
+  background-color: rgb(163 8 9);
+}
+
+.square3 {
+  background-color: rgb(147 124 18);
+}
+
+.square4 {
+  background-color: rgb(10 139 6);
+}
