@@ -1,9 +1,9 @@
-import { Cuadradito } from './components/cuadradito';
+import { Cuadradito } from './components/Cuadradito';
 
 export default function Home() {
   return (
     <div>
-      <Cuadradito />
+      <Cuadradito title="DO" />
     </div>
   );
 }
