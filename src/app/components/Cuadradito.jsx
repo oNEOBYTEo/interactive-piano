@@ -2,15 +2,15 @@
 
 import * as Tone from 'tone';
 
-export function Cuadradito({ note = 'C' }) {
-  const synth = new Tone.PolySynth(Tone.Synth).toDestination();
+export function Cuadradito({ note = 'C', styleModified = '' }) {
+  const synth = new Tone.MembraneSynth().toDestination();
 
   function playSound() {
-    synth.triggerAttackRelease(`${note}3`, '6n');
+    synth.triggerAttackRelease(`${note}4`, '6n');
   }
   return (
     <>
-      <button className="square" onClick={playSound}>
+      <button className={`square ${styleModified}`} onClick={playSound}>
         {note}
       </button>
     </>

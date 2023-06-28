@@ -2,13 +2,13 @@ import { Cuadradito } from './components/Cuadradito';
 
 export default function Home() {
   return (
-    <div>
-      <Cuadradito note="C" />
-      <Cuadradito note="D" />
-      <Cuadradito note="E" />
-      <Cuadradito note="F" />
-      <Cuadradito note="G" />
-      <Cuadradito note="A" />
+    <div className="container">
+      <Cuadradito note="C" styleModified="square1" />
+      <Cuadradito note="D" styleModified="square2" />
+      <Cuadradito note="E" styleModified="square3" />
+      <Cuadradito note="F" styleModified="square4" />
+      <Cuadradito note="G" styleModified="square5" />
+      <Cuadradito note="A" styleModified="square6" />
     </div>
   );
 }
